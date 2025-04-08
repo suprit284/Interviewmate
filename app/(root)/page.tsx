@@ -13,7 +13,7 @@ import {
 async function Home() {
   
   const user = await getCurrentUser();
-console.log("User:", user); // Check if user.id is present
+
 
   const [userInterviews, allInterview] = await Promise.all([
     getInterviewsByUserId(user?.id!),
@@ -55,7 +55,7 @@ console.log("User:", user); // Check if user.id is present
               <InterviewCard
                 key={interview.id}
                 userId={user?.id}
-                interviewId={interview.id}
+                id={interview.id}
                 role={interview.role}
                 type={interview.type}
                 techstack={interview.techstack}
@@ -77,7 +77,7 @@ console.log("User:", user); // Check if user.id is present
               <InterviewCard
                 key={interview.id}
                 userId={user?.id}
-                interviewId={interview.id}
+                id={interview.id}
                 role={interview.role}
                 type={interview.type}
                 techstack={interview.techstack}
