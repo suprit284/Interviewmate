@@ -42,7 +42,7 @@ const Layout = async ({ children }: { children: ReactNode }) => {
             htmlFor="profile-menu-toggle"
             className="w-10 h-10 rounded-full overflow-hidden border-2 border-primary-100 flex items-center justify-center  cursor-pointer"
           >
-            <p className="text-xl font-bold text-white">{firsletter}</p>
+            <p className="text-xl font-bold text-white">{firsletter?.toUpperCase()}</p>
           </label></DropdownMenuTrigger>
   <DropdownMenuContent>
     
