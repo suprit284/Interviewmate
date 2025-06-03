@@ -29,7 +29,7 @@ const Layout = async ({ children }: { children: ReactNode }) => {
         {/* Left Side: Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image src="/logo.svg" alt="MockMate Logo" width={38} height={32} />
-          <h2 className="text-primary-100 text-4xl font-semibold">Interviewmate</h2>
+          <h2 className="text-primary-100 sm:text-4xl text-xl font-semibold">Interviewmate</h2>
         </Link>
 
         {/* Right Side: Profile Button */}
