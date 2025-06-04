@@ -39,3 +39,31 @@ for better understanding of the project workflow refer to the image:
 3. **Transcript Capture:** The conversation is transcribed and stored for analysis.
 4. **AI Feedback Generation:** Post-interview, AI analyzes the transcript and performance metrics to produce a comprehensive feedback report.
 5. **Results & Improvement:** Users can review their feedback to prepare better for real interviews.
+
+## Environment Setup
+
+This project requires Firebase Authentication and VAPI AI integration to function properly.  
+To run the project locally, you need to create your own environment variables.
+
+### Steps to configure:
+
+1. Create a `.env` file in the root directory of the project (this file should **not** be committed).
+
+2. Add the following variables with your own credentials:
+
+```env
+REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
+
+REACT_APP_VAPI_API_KEY=your_vapi_ai_api_key
+Obtain your Firebase config values from your Firebase Console project settings.
+
+Obtain your VAPI AI API key by signing up at vapi.ai and generating an API key.
+
+Restart the development server after creating the .env file to load the variables.
+
+Note: Without these environment variables, the authentication and AI interview features will not work.
