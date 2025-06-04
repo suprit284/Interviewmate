@@ -19,7 +19,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 for better understanding of the project workflow refer to the image in :
 
 
-![Architecture Diagram](assets/Interviewmate project workflow.png)
+![Architecture Diagram](assets/Interviewmate%20project%20workflow.png)
+
 
 
 
