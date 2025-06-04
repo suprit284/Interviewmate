@@ -16,7 +16,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-for better understanding of the project workflow refer to the image in :
+for better understanding of the project workflow refer to the image: 
 
 
 ![Architecture Diagram](assets/Interviewmate%20project%20workflow.png)
